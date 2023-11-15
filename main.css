@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #A8130C;
+}
+
+header h1,
+nav ul li a{
+    font-family: 'Dancing Script', cursive;
+    color: #ecf0f1;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container img{
+    height: 60px;
+}
+
+.cadeiras{
+    height: 440px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+section .container{
+    display: flex;
+    margin-top: 20px;
+}
+
+section .container h2,
+section .container p,
+section .container h3{
+   color: #A8130C;
+   font-family: 'Inter', sans-serif;
+}
+
+section .container h2{
+    margin-bottom: 25px;
+}
+
+#contact .container h2{
+    display: flex;
+    justify-content: center ;
+}
+
+.social-media img{
+    height: 24px;
+}
+
+#contact .container{
+    display: block;
+}
+
+.social-media li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-media li a{
+    text-decoration: none;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-around;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: #A8130C;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #b62b24;
+}
+
+input:focus, textarea:focus {
+    outline-color: #A8130C;;
+}
+
+footer{
+    background-color: #A8130C;
+    padding: 16px 0;
+}
+
+footer .container p{
+    color: #ecf0f1;
+}
